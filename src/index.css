@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #367c96;
+}
+
+.head {
+  font-size: 16px;
+  margin-bottom: 16px;
+  display: block;
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #005875;
+  border-radius: 6px;
+  outline: none;
+  padding: 4px 8px;
+}
+
+label {
+  font-size: 0.75rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 3px #7aaaba;
+  border: 2px solid #005875;
+}
+input:hover, select:hover, textarea:hover  {
+  box-shadow: 0 0 0 3px #7aaaba;
+  border: 2px solid #005875;
+}
